@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERSION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="displaycontainer()">
+    <div id="maincontainer">
+        <div id="head">
+            <div id="head1">
+
+                <div id="HA">TEMPERATURE</div>
+                <div id="HB">CONVERSION</div>
+            </div>
+        </div>
+        <div id="btn1">
+            <button onclick="functiondis()" id="btn1a">click to open the calculator </button>
+        </div>
+        <div id="container">
+            <div id="containerbox1">
+                <p id="containerhead"><b></b></p>
+            </div>
+            <div id="containerbox2">
+                <div id="box2A">
+                    <div class="Box2A1">
+                        <button onclick="inside()" id="btn2A1"> Celsius to Fahrenheit</button>
+                    </div>
+                    <div id="incon1">
+                        <div id="Box2A2">
+                            <div id="cvalue1">
+                                <div>
+                                    <h1>Enter Celsius Value</h1>
+                                </div>
+                                <div id="bbbba"> <input type="number" id="input1"
+                                        placeholder="Enter value in DEGREE Celsius  ">
+                                </div>
+                            </div>
+                            <div id="cvalue2">
+                                <button onclick="functionc()" id="btn2A2">Convert</button>
+                            </div>
+                        </div>
+                        <div id="Box2A3">
+                            <div id="B2a31">
+                                <h1> Fahrenheit Value is </h1>
+                            </div>
+                            <div id="B2A32">
+
+                                <input type="number" id="fans">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="box2B">
+                    <div class="box2A1">
+                        <button onclick="insideA()" id="btn2b1">Fahrenheit to Celsius</button>
+                    </div>
+                    <div id="inicon2">
+                        <div id="fvalue1">
+                            <div id="2B2">
+                                <h1>Enter Fahrenheit Value</h1>
+                            </div>
+                            <div id="bbba">
+                                <input type="number" id="C212" placeholder="Enter value in DEGREE Fahrenheit  ">
+                            </div>
+                            
+                        </div>
+                        <div id="2B3">
+                            <button onclick="functionc1()" class="btn">Convert</button>
+
+                        </div>
+                        <div id="B3B32">
+                            <div id="B2B32">
+                                <h1>Celsius Value Is</h1>
+                            </div>
+                            <div id="B2B33">
+                                <input type="number" id="cans">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>
